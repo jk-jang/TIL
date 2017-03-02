@@ -1,5 +1,6 @@
 # 세제곱근 계산 함수 생성
 ```r
+install packages("dfdd")
 sqrt3
 ```
 dd'test'dd
