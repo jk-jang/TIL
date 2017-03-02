@@ -5,7 +5,6 @@
 ##Categories
 - [Python](#Python)
 - [R](#R)
-
 ---
 
 ##Python
