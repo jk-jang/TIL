@@ -1,5 +1,6 @@
 # TIL
 >Today I Learned
+작성 규칙은 GFM[(Github-Flavoured Markdown)](https://help.github.com/categories/writing-on-github)을 사용(확장자`.md`)
 
 ---
 
