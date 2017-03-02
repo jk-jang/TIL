@@ -1,8 +1,8 @@
 # 세제곱근 계산 함수 생성
-'''r
+```r
 sqrt3
-'''
-'test'
+```
+dd'test'dd
 
 '''python
 def fdfd
