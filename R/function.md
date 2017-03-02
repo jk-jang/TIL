@@ -1,19 +1,10 @@
 # 세제곱근 계산 함수 생성
 ```r
-install packages("dfdd")
-sqrt3
-```
-dd`test`dd
-
-'''python
-def fdfd
-'''
-	dfdsfasdif
-		dfdkj
-
-```python
-def 함수이름(변수1, 변수2, ...):
-	if(조건):
-		# something...
-	return 반환값
+sqrt3 <- function(x){
+  direction <- ifelse(x>0,1,
+                      ifelse(x<0, -1, 0))
+  x <- abs(x)^(1/3)
+  x <- x*direction
+  return(x)
+}
 ```
