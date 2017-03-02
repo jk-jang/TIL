@@ -12,7 +12,7 @@
 * [Docker For Jekyll.md](docker/docker-for-jekyll.md)
 
 ##R
-* [Docker For Jekyll.md](docker/docker-for-jekyll.md)
+* [사용자정의 함수](R/function.md)
 
 ## Other TIL Collections
 Inspired by
