@@ -2,7 +2,6 @@
 >Today I Learned
 
 ---
-
 ##Categories
 - [Python](#Python)
 - [R](#R)
