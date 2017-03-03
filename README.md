@@ -16,6 +16,7 @@
 
 ##R
 * [사용자정의 함수](R/function.md)
+* [시각화 옵션](R/put-comma-in-graph.md)
 
 ## Other TIL Collections
 Inspired by
