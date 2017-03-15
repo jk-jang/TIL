@@ -17,7 +17,7 @@
 ## R
 * [사용자정의 함수](R/function.md)
 * [시각화 팁](R/Visualization-tips.md)
-* [데이터 저장](TIL/R/how-to-save.md)
+* [데이터 저장](R/how-to-save.md)
 
 ### Other TIL Collections
 Inspired by
