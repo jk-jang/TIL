@@ -5,20 +5,20 @@
 
 ---
 
-##Categories
+## Categories
 - [Python](#Python)
 - [R](#R)
 
 ---
 
-##Python
+## Python
 * [test.md](docker/docker-for-jekyll.md)
 
-##R
+## R
 * [사용자정의 함수](R/function.md)
 * [시각화 팁](R/Visualization-tips.md)
 
-## Other TIL Collections
+### Other TIL Collections
 Inspired by
 * [@channprj](https://github.com/channprj/TIL)
 * [@milooy](https://github.com/milooy/TIL)
