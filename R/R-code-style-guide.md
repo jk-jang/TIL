@@ -22,8 +22,7 @@ BAD: calculate_avg_clicks , calculateAvgClicks
 ---
 
 ## 공백 넣기(Spacing)
-> 모든 이진 연산자 (=, +, -, <-, 등) 앞뒤에 공백을 넣 
-
+> 모든 이진 연산자 (=, +, -, <-, 등) 앞뒤에 공백을 넣어
 ```r
 GOOD:
 tab.prior <- table(df[df$days.from.opt < 0, "campaign.id"])
