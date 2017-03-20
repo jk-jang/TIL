@@ -14,7 +14,7 @@ test = iris[iris$Species %in% Dictionary, ]
 levels(test$Species)
 ```
 <pre><code>## [1] "setosa"     "versicolor" "virginica"</code></pre>
-### 추가: `Species`의 Factor 레벨이 3단계이다. 더 깔끔하게 해주자
+#### 추가: `Species`의 Factor 레벨이 3단계이다. 더 깔끔하게 해주자
 ```r
 test$Species = factor(test$Species)
 levels(test$Species)
