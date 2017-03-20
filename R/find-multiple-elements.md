@@ -1,4 +1,5 @@
 # 뽑고 싶은 단어 추출
+(find-multiple-elements)
 >_"`setosa` 와 `virginica` 범주를 가진 데이터를 가지고 오고 싶어"_ 
 
 ## 데이터 확인
