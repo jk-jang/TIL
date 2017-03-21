@@ -4,7 +4,7 @@
 
 ## 함수 생성
 ```r
-insloadpkg <- function(pkg){
+InsLoadPkg <- function(pkg){
   new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
   if (length(new.pkg)) 
     install.packages(new.pkg, dependencies = TRUE)
@@ -14,7 +14,7 @@ insloadpkg <- function(pkg){
 ## 사용법 
 ```
 packages <- c("dplyr", "forcats")
-insloadpkg(packages)
+InsLoadPkg(packages)
 ```
 ### ref
 https://gist.github.com/stevenworthington/3178163
