@@ -4,11 +4,11 @@
 
 ## 함수 생성
 ```r
-InsLoadPkg <- function(pkg){
-  new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
-  if (length(new.pkg)) 
-    install.packages(new.pkg, dependencies = TRUE)
-  sapply(pkg, require, character.only = TRUE)
+InsLoadPkg <- function(input){
+  uninstalledPackage <- input[!(input %in% installed.packages()[, "Package"])]
+  if (length(uninstalledPackage)) 
+    install.packages(uninstalledPackage, dependencies = TRUE)
+  sapply(input, require, character.only = TRUE)
 }
 ```
 ## 사용법 
