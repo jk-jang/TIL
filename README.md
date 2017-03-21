@@ -19,7 +19,7 @@
 ---
 
 ## Collect and Read
-* [패키지 설치와 불러오기 한 번에 하는 법](R/install-and-load-packages-at-once.md)
+* [패키지 설치와 불러오기 한 번에 하는 법](R/function-install-and-load-packages-at-once.md)
 * [데이터 저장](R/how-to-save.md)
 * [R 코드 작성법](R/R-code-style-guide.md)
 * [function을 파일로 저장하고 불러오기](R/save-and-load-function.md)
