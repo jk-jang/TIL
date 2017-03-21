@@ -2,7 +2,7 @@
 (install-and-load-packages-at-once)
 > "패키지 설치와 불러오기 한 번에 하자"
 
-## 함수 생성
+## 사용자 함수 생성
 ```r
 InsLoadPkg <- function(input){
   uninstalledPackage <- input[!(input %in% installed.packages()[, "Package"])]
