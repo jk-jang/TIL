@@ -11,9 +11,9 @@ str(warpbreaks)
 ##  $ wool   : Factor w/ 2 levels "A","B": 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ tension: Factor w/ 3 levels "L","M","H": 1 1 1 1 1 1 1 1 1 2 ...
 ```
-데이터셋 warpbreaks(The Number of Breaks in Yarn during Weaving)은 wool과 tension에 따른 break를 나타냄
+데이터셋 warpbreaks(The Number of Breaks in Yarn during Weaving)은 `wool`과 `tension`에 따른 `break`를 나타냄
 
-잘 모르겠으나 높은 질을 가진 wool이 break를 많이 내는데 tension에 따라 그게 조금씩 달라짐
+잘 모르겠으나 높은 질을 가진 `wool`이 `break`를 많이 내는데 `tension`에 따라 조금씩 달라짐
 
 ### 패키지 이용
 `forcats`, 범주형 변수처리 라이브러리 이용
