@@ -10,6 +10,8 @@
 - [Collect and Read](#collect-and-read)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Algorism](#algorism)
+  - Tree
+    - Decision
 - [Model Evaluation](#model-evaluation)
 - [Statistics](#statistics)
 - [Visualization](#visualization)
