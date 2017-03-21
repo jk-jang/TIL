@@ -7,14 +7,13 @@
 
 ## Categories
 - [Python](#Python)
-- [R](#R)
-
+- [수집 및 리드](# 수집 및 리드)
 ---
 
 ## Python
 * [test.md](docker/docker-for-jekyll.md)
 
-## R
+## 수집 및 리드
 * [사용자정의 함수](R/function.md)
 * [시각화 팁](R/Visualization-tips.md)
 * [데이터 저장](R/how-to-save.md)
