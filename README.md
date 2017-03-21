@@ -25,8 +25,8 @@
 * [function을 파일로 저장하고 불러오기](R/save-and-load-function.md)
 
 ## Exploratory Data Analysis
-* [세제곱근 계산 함수](R/cube-root.md)
-
+- [세제곱근 계산 함수 만들기](R/cube-root.md)
+- [팩토리얼 함수 만들기](R/factorial.md)
 ## Algorism
 * [테스트](docker/docker-for-jekyll.md)
 
