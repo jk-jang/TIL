@@ -20,7 +20,7 @@ str(warpbreaks)
 (헤들리만듦)
 
 ### 패키지 설치
-[패키지 설치와 불러오기 한 번에 하는 법](install-and-load-packages-at-once.md)
+[패키지 설치와 불러오기 한 번에 하는 법](function-install-and-load-packages-at-once.md)
 ```r
 InsLoadPkg <- function(input){
   uninstalledPackage <- input[!(input %in% installed.packages()[, "Package"])]
