@@ -36,7 +36,7 @@ InsLoadPkg(packages)
 
 warpbreaks <- warpbreaks%>%
   mutate(tension = fct_recode(tension,
-                              "ToChaneTheName" = "H"))
+                              ToChangeTheName = "H"))
 levels(warpbreaks$tension)
 ## [1] "L"              "M"              "ToChaneTheName"
 ```
