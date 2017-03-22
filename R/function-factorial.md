@@ -1,14 +1,13 @@
 # factorial 함수
 ### 사용자 함수
 ```r
-myfact <- function(x){
-  fact <- 1
-  i <- x
-  while(i > 1){
-    fact <- fact*i
-    i <- i-1
+myfact <- function(i){
+  k <- 1
+  while(i>1){
+    k <- k*i
+    i <- i - 1
   }
-  return(fact)
+  return(k)
 }
 
 myfact(3)
