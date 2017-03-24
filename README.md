@@ -31,7 +31,7 @@
 - [범주명 바꾸기](R/recode-factor-name.md)
 - 변환
   - [(Package-tidyr)wide form and long form](R/package-tidyr.md)
-## Algorism
+## Algorithm
 * [테스트](docker/docker-for-jekyll.md)
 
 ## Model Evaluation
