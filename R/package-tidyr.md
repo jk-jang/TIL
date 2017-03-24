@@ -12,6 +12,7 @@ ref: https://github.com/tidyverse/tidyr
 ### 설명할 데이터
 과일 판매량
 
+
 <table align="center">
   <tr>
     <th>Month</th>
@@ -42,6 +43,8 @@ ref: https://github.com/tidyverse/tidyr
     <td>11</td> 
   </tr>
 </table>
+
+
 
 Month|Day|사과|오렌지|바나나
 :---:|:---:|:---:|:---:|:---:
