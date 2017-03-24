@@ -94,6 +94,7 @@ head(airquality)
 # 5    NA      NA 14.3   56     5   5
 # 6    28      NA 14.9   66     5   6
 ```
+### 풀이
 ```r
 airquality%>%
   gather(quality, value, -Month, -Day)%>%
@@ -110,23 +111,25 @@ airquality%>%
 > 약 이름(name)에 따라 한 줄에 한 약품(a,b)의 값을 하나씩 알고싶어
 
 ex)밑에처럼 바꾸고 싶어~
-```
+
+```r
 #   name drug heartrate
 # Wilbur    a        67
-````
+```
 ### 데이터 
+```r
 messy <- data.frame(
   name = c("Wilbur", "Petunia", "Gregory"),
   a = c(67, 80, 64),
   b = c(56, 90, 50)
 )
 messy
-```
 #      name  a  b
 # 1  Wilbur 67 56
 # 2 Petunia 80 90
 # 3 Gregory 64 50
 ```
+### 풀이
 ```r
 messy %>%
   gather(drug, heartrate,-name)
@@ -138,7 +141,6 @@ messy %>%
 # 5 Petunia    b        90
 # 6 Gregory    b        50
 ```
-
 ref: 
 https://blog.rstudio.org/2014/07/22/introducing-tidyr/
 http://mathpsy.tistory.com/20
