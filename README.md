@@ -29,6 +29,8 @@
 - [팩토리얼 함수 만들기](R/function-factorial.md)
 - [Which 함수 만들기](R/function-which.md)
 - [범주명 바꾸기](R/recode-factor-name.md)
+- 변환
+  - [(Package-tidyr)wide form and long form](R/package-tidyr.md)
 ## Algorism
 * [테스트](docker/docker-for-jekyll.md)
 
