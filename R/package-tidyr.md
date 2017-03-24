@@ -9,42 +9,9 @@ ref: https://github.com/tidyverse/tidyr
 
 # gather()
 ## wide form(옆으로 긴 거)을 long form(밑으로 긴 거)으로 바꿈
-### 설명할 데이터
+### 데이터
+
 과일 판매량
-
-
-<table align="center">
-  <tr>
-    <th>Month</th>
-    <th>Day</th>
-    <th>사과</th>
-    <th>오렌지</th>
-    <th>바나나</th>
-  </tr>
-  <tr>
-    <td>Mar</td>
-    <td>01</td>
-    <td>24</td>
-    <td>34</td> 
-     <td>23</td> 
-  </tr>
-  <tr>
-    <td>Apr</td>
-    <td>01</td>
-    <td>53</td>
-    <td>73</td> 
-    <td>63</td> 
-  </tr>
-  <tr>
-    <td>Apr</td>
-    <td>02</td>
-    <td>65</td>
-    <td>32</td> 
-    <td>11</td> 
-  </tr>
-</table>
-
-
 
 Month|Day|사과|오렌지|바나나
 :---:|:---:|:---:|:---:|:---:
@@ -54,13 +21,13 @@ Apr|02|65|32|11
 
 ## 형식: gather(data, key, value, ...)
 key: "기존 데이터의 변수명을 대표할 새로운 열의 이름"
-> 기존 데이터의 변수에 사과, 오렌지, 바나나가 있었으면 열의 이름을 fruit으로 해주자
+> 기존 데이터의 변수에 사과, 오렌지, 바나나가 있었으면 열의 이름을 `fruit`으로 해주자
 
 value: 기존 데이터값(cell)을 대표할 새로운 열의 이름",
-> 기존 데이터값이 판매량을 뜻하면 sales라고 해주자
+> 기존 데이터값이 판매량을 뜻하면 `sales`라고 해주자
 
 ...: "Long form에서 제외할 변수 리스트 or -Long form에 포함할 변수 리스트")
-> (사과:바나나) or (-YEAR, -Month)
+> (`사과`:`바나나`) or (`-YEAR`, `-Month`)
 
 ```r
 fruit <- data.frame(
@@ -124,7 +91,6 @@ head(airquality)
 airquality%>%
   gather(quality, value, -Month, -Day)%>%
   head()# Ozone:Temp라 해도 되는데 정렬이 저렇게 깔끔하게 된 경우 잘 없음
-```
 ##   Month Day quality value
 ## 1     5   1   Ozone    41
 ## 2     5   2   Ozone    36
@@ -132,7 +98,7 @@ airquality%>%
 ## 4     5   4   Ozone    18
 ## 5     5   5   Ozone    NA
 ## 6     5   6   Ozone    28
-
+```
 ## 문제.3
 > 약 이름(name)에 따라 한 줄에 한 약품(a,b)의 값을 하나씩 알고싶어
 
