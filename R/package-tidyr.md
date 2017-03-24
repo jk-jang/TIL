@@ -8,7 +8,7 @@ ref: https://github.com/tidyverse/tidyr
 
 
 # gather()
-## wide form(옆으로 긴 거)을 long form(밑으로 긴 거)으로 바꿈
+## "wide form(옆으로 긴 거)을 long form(밑으로 긴 거)으로 바꿈"
 
 <p align="center">
 <img src="img/package-tidyr.png">
