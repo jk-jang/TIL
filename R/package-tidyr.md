@@ -9,8 +9,16 @@ ref: https://github.com/tidyverse/tidyr
 
 # gather()
 ## wide form(옆으로 긴 거)을 long form(밑으로 긴 거)으로 바꿈
-### 데이터
 
+<p align="center">
+<img src="img/package-tidyr.png">
+</p>
+
+## "알고 싶은 것!"
+
+> 일자(`Month`, `Day`)에 따라 한 줄에 한 과일의 판매량을 알고싶어
+
+### "아래 데이터를 예시처럼 ~ !"
 과일 판매량
 
 Month|Day|사과|오렌지|바나나
@@ -18,6 +26,14 @@ Month|Day|사과|오렌지|바나나
 Mar|01|24|34|23 
 Apr|01|53|73|63
 Apr|02|65|32|11
+
+
+예시
+```
+#   Month Day  fruit sales
+# 1   Mar   1  apple    24
+```
+
 
 ## 형식: gather(data, key, value, ...)
 key: "기존 데이터의 변수명을 대표할 새로운 열의 이름"
@@ -47,16 +63,6 @@ fruit
 ```r
 require(dplyr, tidyr)
 ```
-## 문제.1
-
-> 일자(Month, Day)에 따라 한 줄에 한 과일의 판매량을 알고싶어
-
-ex)밑에 처럼 바꾸고 싶어~
-```
-#    Month Day  fruit sales
-# 1   Mar   1  apple    24
-```
-
 ```r
 fruit%>%
   gather(fruit, sales, -Month, -Day)
@@ -68,10 +74,10 @@ fruit%>%
 # 4   Mar   1 orange    34
 ```
 
-## 문제.2
+## 문제.1
 > 일자(Month, Day)에 따라 한 줄에 한 관측치의 값을 알고싶어
 
-ex)밑에 처럼 바꾸고 싶어~
+ex)밑에처럼 바꾸고 싶어~
 ```
 ##   Month Day quality value
 ## 1     5   1   Ozone    41
@@ -99,10 +105,10 @@ airquality%>%
 ## 5     5   5   Ozone    NA
 ## 6     5   6   Ozone    28
 ```
-## 문제.3
+## 문제.2
 > 약 이름(name)에 따라 한 줄에 한 약품(a,b)의 값을 하나씩 알고싶어
 
-ex)밑에 처럼 바꾸고 싶어~
+ex)밑에처럼 바꾸고 싶어~
 ```
 #   name drug heartrate
 # Wilbur    a        67
