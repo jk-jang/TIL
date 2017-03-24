@@ -6,6 +6,10 @@
 - 참조명은(#소문자-소문자)
 ---
 
+## 작성 중
+  - [(Package-tidyr)wide form and long form](R/package-tidyr.md)<--spread() 채우기 
+---
+
 ## Categories
 - [Collect and Read](#collect-and-read)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
