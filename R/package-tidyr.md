@@ -4,11 +4,15 @@
 
 해들리가 tidyr로 전부 대체
 
+> 그냥 tidyr 쓰자
+
 ref: https://github.com/tidyverse/tidyr
 
 
 # gather()
 ## "wide form(옆으로 긴 거)을 long form(밑으로 긴 거)으로 바꿈"
+> 변수명들을 범주들로 바꿈(변수명: apple, orange, banana을 한 변수의 범주로 들어감)
+
 
 <p align="center">
 <img src="img/package-tidyr.png">
