@@ -5,7 +5,7 @@
 ## 사용자 함수 생성
 ```r
 InsLoadPkg <- function(input){
-  uninstalledPackage <- input[!(input %in% installed.packages()[, "Package"])]
+  uninstalledPackage <- input[!input %in% installed.packages()[, "Package"]]
   if (length(uninstalledPackage)) 
     install.packages(uninstalledPackage, dependencies = TRUE)
   sapply(input, require, character.only = TRUE)
