@@ -7,8 +7,8 @@
 ---
 
 ## Categories
-- [gather](#gather)
-- [spread](#spread)
+- [gather()](#gather)
+- [spread()](#spread)
 ---
 
 # gather()
