@@ -62,7 +62,8 @@ fruit
 ```
 ### 라이브러리
 ```r
-library("dplyr", "tidyr")
+library("dplyr")
+library("tidyr")
 ```
 ```r
 fruit%>%
