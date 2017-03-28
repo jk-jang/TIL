@@ -8,7 +8,7 @@ InsLoadPkg <- function(input){
   uninstalledPackage <- input[!input %in% installed.packages()[, "Package"]]
   if (length(uninstalledPackage)) 
     install.packages(uninstalledPackage, dependencies = TRUE)
-  sapply(input, require, character.only = TRUE)
+  sapply(input, library, character.only = TRUE)
 }
 ```
 ## 사용법 
