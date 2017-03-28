@@ -4,7 +4,12 @@
 
 > 해들리가 tidyr로 전부 대체(2017.01)
 
-ref: https://github.com/tidyverse/tidyr
+---
+
+## Categories
+- [gather](#gather)
+- [spread](#spread)
+---
 
 # gather()
 ## "wide form(옆으로 긴 거)을 long form(밑으로 긴 거)으로 바꿈"
@@ -214,6 +219,7 @@ gatherFruit%>%
 ref: 
 https://blog.rstudio.org/2014/07/22/introducing-tidyr/
 http://mathpsy.tistory.com/20
+https://github.com/tidyverse/tidyr
 
 
 
