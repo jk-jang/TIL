@@ -50,6 +50,8 @@
 ## Platform
 * [테스트](docker/docker-for-jekyll.md)
 
+## etc
+* verse[r]((R/verse.md) [python](docker/docker-for-jekyll.md)
 
 ### Other TIL Collections
 Inspired by
