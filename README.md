@@ -31,7 +31,7 @@
 ## Exploratory Data Analysis
 - [세제곱근 계산 함수 만들기](R/function-cube-root.md)
 - [팩토리얼 함수 만들기](R/function-factorial.md)
-- [Which 함수 만들기](R/function-which.md)
+- [When Stop 함수 만들기](R/function-whenstop.md)
 - [범주명 바꾸기](R/recode-factor-name.md)
 - Transform
   - [(Package-tidyr)wide form and long form](R/package-tidyr.md)
