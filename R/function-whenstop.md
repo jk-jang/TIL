@@ -4,16 +4,16 @@
 ```r
 WhenStop1 <- function(x) {
   for (i in 1:length(x)) {
-    if (x[i] == 1) break
+    if (x[i] == 1)
+    print(i)
   }
-  return(i)
 }
 
-(WhenStop1(c(5,3,4,2,1)))
+(WhenStop1(c(5, 3, 1, 4, 2, 1)))
 # [1] 5
 ```
 참고
 ```r
-which(c(5,3,4,2,1) == 1)
+which(c(5, 3, 4, 1, 2, 1) == 1)
 # [1] 5
 ```
