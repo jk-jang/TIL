@@ -142,6 +142,7 @@ messy %>%
 # 5 Petunia    b        90
 # 6 Gregory    b        50
 ```
+---
 
 # spread()
 ## "wide form(옆으로 긴 거)을 long form(밑으로 긴 거)으로 바꿈"
