@@ -62,7 +62,7 @@ fruit
 ```
 ### 라이브러리
 ```r
-require(dplyr, tidyr)
+require("dplyr", "tidyr")
 ```
 ```r
 fruit%>%
