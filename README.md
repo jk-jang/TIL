@@ -7,7 +7,7 @@
 ---
 
 ## 작성 중
-  - [(Package-tidyr)wide form and long form](R/package-tidyr.md)<--spread() 채우기 
+  - [유사도계산](R/package-tidyr.md)
 ---
 
 ## Categories
