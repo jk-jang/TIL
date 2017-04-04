@@ -20,8 +20,6 @@
 - [Collect and Read](#collect-and-read)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Algorism](#algorism)
-  - Tree
-    - Decision
 - [Model Evaluation](#model-evaluation)
 - [Statistics](#statistics)
 - [Visualization](#visualization)
@@ -29,10 +27,10 @@
 ---
 
 ## Collect and Read
-* [패키지 설치와 불러오기 한 번에 하는 법](R/function-install-and-load-packages-at-once.md)
-* [데이터 저장](R/how-to-save.md)
-* [R 코드 작성법](R/R-code-style-guide.md)
-* [function을 파일로 저장하고 불러오기](R/save-and-load-function.md)
+- [패키지 설치와 불러오기 한 번에 하는 법](R/function-install-and-load-packages-at-once.md)
+- [데이터 저장](R/how-to-save.md)
+- [R 코드 작성법](R/R-code-style-guide.md)
+- [function을 파일로 저장하고 불러오기](R/save-and-load-function.md)
 
 ## Exploratory Data Analysis
 - [세제곱근 계산 함수 만들기](R/function-cube-root.md)
@@ -42,28 +40,29 @@
 - Transform
   - [(Package-tidyr)wide form and long form](R/package-tidyr.md)
 ## Algorithm
-* [테스트](docker/docker-for-jekyll.md)
+- [Supervised Learning]
+- [Unsupervised Learning]
+  - Clustering
+    - K-means
+- [Reinforcement Learning]
 
 ## Model Evaluation
-* [테스트](docker/docker-for-jekyll.md)
+- [적절한 군집 개수 찾기](R/total_within_cluster_sum_of_squares.md)
 
 ## Statistics
-* [테스트](docker/docker-for-jekyll.md)
+- [테스트](docker/docker-for-jekyll.md)
 
 ## Visualization
-* [시각화 팁](R/Visualization-tips.md)
+- [시각화 팁](R/Visualization-tips.md)
 
 ## Platform
-* [테스트](docker/docker-for-jekyll.md)
+- [테스트](docker/docker-for-jekyll.md)
 
 ## etc
-* verse [r](R/verse.md) [python](docker/docker-for-jekyll.md)
+- verse [r](R/verse.md) [python](docker/docker-for-jekyll.md)
 
 ### Other TIL Collections
 Inspired by
-* [@channprj](https://github.com/channprj/TIL)
-* [@milooy](https://github.com/milooy/TIL)
+- [@channprj](https://github.com/channprj/TIL)
+- [@milooy](https://github.com/milooy/TIL)
 
-<p align="center">
-<img src="R/asdf.JPG">
-</p>
