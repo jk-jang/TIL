@@ -5,9 +5,9 @@
 - 파일명은 영어
 - 참조명은(#소문자-소문자)
 - 그림 
-```
+```html
 <p align="center">
-<img src="img/blahblah.png">
+ <img src="img/blahblah.png">
 </p>
 ```
 ---
