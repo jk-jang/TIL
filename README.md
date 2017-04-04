@@ -47,7 +47,7 @@
 - [Reinforcement Learning]
 
 ## Model Evaluation
-- [적절한 군집 개수 찾기](R/total_within_cluster_sum_of_squares.md)
+- 적절한 군집 개수 찾기 [r](R/total_within_cluster_sum_of_squares.md)
 
 ## Statistics
 - [테스트](docker/docker-for-jekyll.md)
