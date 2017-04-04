@@ -4,6 +4,12 @@
 작성 규칙은 GFM[(Github-Flavoured Markdown)](https://help.github.com/categories/writing-on-github)을 사용(확장자`.md`)
 - 파일명은 영어
 - 참조명은(#소문자-소문자)
+- 그림 
+```
+<p align="center">
+<img src="img/blahblah.png">
+</p>
+```
 ---
 
 ## 작성 중
