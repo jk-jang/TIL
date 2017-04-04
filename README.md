@@ -40,11 +40,11 @@
 - Transform
   - [(Package-tidyr)wide form and long form](R/package-tidyr.md)
 ## Algorithm
-- [Supervised Learning]
-- [Unsupervised Learning]
+- Supervised Learning
+- Unsupervised Learning
   - Clustering
     - K-means
-- [Reinforcement Learning]
+- Reinforcement Learning
 
 ## Model Evaluation
 - 적절한 군집 개수 찾기 [r](R/total_within_cluster_sum_of_squares.md)
