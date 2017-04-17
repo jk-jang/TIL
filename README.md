@@ -3,7 +3,7 @@
 
 작성 규칙은 GFM[(Github-Flavoured Markdown)](https://help.github.com/categories/writing-on-github)을 사용(확장자`.md`)
 - 파일명은 영어
-- [contents name]참조명은(#소문자-소문자)
+- [contents name]참조명은(#소문자-소문자, 컨텐츠 이름이 대문자라 할지라도)
 - 그림 
 ```html
 <p align="center">
