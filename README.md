@@ -14,7 +14,7 @@
 
 ## 작성 중
   - [유사도계산](R/package-tidyr.md)
-  - install tensorflow in docker
+  
 ---
 
 ## Categories
