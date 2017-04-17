@@ -59,9 +59,6 @@
 - [시각화 팁](R/Visualization-tips.md)
 
 ## Platform
-- [테스트](docker/docker-for-jekyll.md)
-
-## Platform
 - Docker
   - [Install Docker for Window](platform/docker/install-docker-for-window.md) 
   - [install tensorflow in docker](platform/docker/install-tensorflow-in-docker.md)
