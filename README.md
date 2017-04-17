@@ -24,7 +24,7 @@
 - [Statistics](#statistics)
 - [Visualization](#visualization)
 - [Platform](#platform)
-- [software library](#software-library)
+- [Software library](#software-library)
 
 ---
 
@@ -61,6 +61,8 @@
 - [테스트](docker/docker-for-jekyll.md)
 
 ## Platform
+- Docker
+  - Install Docker for Window(.md) 
 - [테스트](docker/docker-for-jekyll.md)
 
 ## Software Library
