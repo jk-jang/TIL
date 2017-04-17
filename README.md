@@ -14,6 +14,7 @@
 
 ## 작성 중
   - [유사도계산](R/package-tidyr.md)
+  - install tensorflow in docker
 ---
 
 ## Categories
@@ -63,7 +64,7 @@
 ## Platform
 - Docker
   - [Install Docker for Window](platform/docker/install-docker-for-window.md) 
-- [테스트](docker/docker-for-jekyll.md)
+  - [install tensorflow in docker](platform/docker/install-tensorflow-in-docker.md)
 
 ## Software Library
 - verse [r](R/verse.md) [python](docker/docker-for-jekyll.md)
