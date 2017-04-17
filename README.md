@@ -62,7 +62,7 @@
 
 ## Platform
 - Docker
-  - Install Docker for Window(.md) 
+  - Install Docker for Window(platform/docker/install-docker-for-window.md) 
 - [테스트](docker/docker-for-jekyll.md)
 
 ## Software Library
