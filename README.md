@@ -24,6 +24,8 @@
 - [Statistics](#statistics)
 - [Visualization](#visualization)
 - [Platform](#platform)
+- [software library](#Software-Library)
+
 ---
 
 ## Collect and Read
@@ -58,7 +60,10 @@
 ## Platform
 - [테스트](docker/docker-for-jekyll.md)
 
-## etc
+## Platform
+- [테스트](docker/docker-for-jekyll.md)
+
+## Software Library
 - verse [r](R/verse.md) [python](docker/docker-for-jekyll.md)
 
 ### Other TIL Collections
