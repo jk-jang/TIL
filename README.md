@@ -67,14 +67,14 @@
 ## Platform
 - Docker
   - [Install Docker for Window](platform/docker/install-docker-for-window.md) 
-  - [install tensorflow in docker](platform/docker/install-tensorflow-in-docker.md)
+  - [Install tensorflow in docker](platform/docker/install-tensorflow-in-docker.md)
 
 ## Software Library
 - Tensorflow
 
 ## ETC
 - verse [r](R/verse.md) [python](docker/docker-for-jekyll.md)
-- [install Window 10 via USB on Samsung laptop](ETC/install-window10-via-usb-on-samsung.md)
+- [Install Window 10 via USB on Samsung laptop](ETC/install-window10-via-usb-on-samsung.md)
 
 ### Other TIL Collections
 Inspired by
