@@ -2,8 +2,8 @@
 >Today I Learned
 
 작성 규칙은 GFM[(Github-Flavoured Markdown)](https://help.github.com/categories/writing-on-github)을 사용(확장자`.md`)
-- 파일명은 영어
-- [contents name]참조명은(#소문자-소문자, 컨텐츠 이름이 대문자라 할지라도)
+- 파일명은 영어(소문자) 
+- [contents name]참조명은(#소문자-소문자, 참조할 컨텐츠 이름이 대문자라 할지라도)
 - 그림 code
 ```html
 <p align="center">
@@ -31,6 +31,7 @@
 - [Visualization](#visualization)
 - [Platform](#platform)
 - [Software library](#software-library)
+- [ETC](#etc)
 
 ---
 
@@ -69,7 +70,11 @@
   - [install tensorflow in docker](platform/docker/install-tensorflow-in-docker.md)
 
 ## Software Library
+- Tensorflow
+
+## ETC
 - verse [r](R/verse.md) [python](docker/docker-for-jekyll.md)
+- install Window 10 via USB on Samsung laptop(ETC/install-window10-via-usb-on-samsung.md)
 
 ### Other TIL Collections
 Inspired by
