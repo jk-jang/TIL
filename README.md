@@ -48,6 +48,7 @@
 - [범주명 바꾸기](R/recode-factor-name.md)
 - Transform
   - [(Package-tidyr)wide form and long form](R/package-tidyr.md)
+  
 ## Algorithm
 - Supervised Learning
 - Unsupervised Learning
@@ -67,7 +68,9 @@
 ## Platform
 - Docker
   - [Install Docker for Window](platform/docker/install-docker-for-window.md) 
-  - [Install tensorflow in docker](platform/docker/install-tensorflow-in-docker.md)
+  - [Install tensorflow in Docker](platform/docker/install-tensorflow-in-docker.md)
+- Anaconda
+  - [Install tensorflow in Anaconda](platform/anaconda/install-tensorflow-in-anaconda.md)
 
 ## Software Library
 - Tensorflow
