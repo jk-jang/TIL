@@ -10,7 +10,7 @@
  <img src="img/blahblah.png">
 </p>
 ```
-- 키보드 아이콘 코드
+- Keyboard Icons Markdown
 ```html
 <kbd>Alt</kbd>+<kbd>F2</kbd>
 ```
@@ -38,8 +38,8 @@
 ## Collect and Read
 - [패키지 설치와 불러오기 한 번에 하는 법](R/function-install-and-load-packages-at-once.md)
 - [데이터 저장](R/how-to-save.md)
-- [R 코드 작성법](R/R-code-style-guide.md)
 - [function을 파일로 저장하고 불러오기](R/save-and-load-function.md)
+- [Run tensorflow in R](R/run-tensorflow-in-r.md)
 
 ## Exploratory Data Analysis
 - [세제곱근 계산 함수 만들기](R/function-cube-root.md)
@@ -74,11 +74,11 @@
 
 ## Software Library
 - Tensorflow
-  - [Run tensorflow in R](
 
 ## ETC
 - verse [r](R/verse.md) [python](docker/docker-for-jekyll.md)
 - [Install Window 10 via USB on Samsung laptop](ETC/install-window10-via-usb-on-samsung.md)
+- [R 코드 작성법](R/R-code-style-guide.md)
 
 ### Other TIL Collections
 Inspired by
