@@ -74,7 +74,7 @@
 
 ## ETC
 - verse [r](R/verse.md) [python](docker/docker-for-jekyll.md)
-- install Window 10 via USB on Samsung laptop(ETC/install-window10-via-usb-on-samsung.md)
+- [install Window 10 via USB on Samsung laptop](ETC/install-window10-via-usb-on-samsung.md)
 
 ### Other TIL Collections
 Inspired by
