@@ -74,6 +74,7 @@
 
 ## Software Library
 - Tensorflow
+  - [Run tensorflow in R](
 
 ## ETC
 - verse [r](R/verse.md) [python](docker/docker-for-jekyll.md)
