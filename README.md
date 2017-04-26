@@ -55,6 +55,7 @@
   - Clustering
     - K-means
 - Reinforcement Learning
+- Deep Learning
 
 ## Model Evaluation
 - 적절한 군집 개수 찾기 [r](R/total_within_cluster_sum_of_squares.md)
