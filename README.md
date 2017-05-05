@@ -91,10 +91,14 @@
 - Put comma in graph - [R](Languages/R/visualization-tips.md)
 
 ## ETC
+
 - [Install Window 10 via USB on Samsung laptop](ETC/install-window10-via-usb-on-samsung.md)
 
 
-**Other TIL Collections**
+
+##### Other TIL Collections
+
 Inspired by
+
 - [@channprj](https://github.com/channprj/TIL)
 - [@milooy](https://github.com/milooy/TIL)
