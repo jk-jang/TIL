@@ -4,7 +4,7 @@
 작성 규칙은 GFM[(Github-Flavoured Markdown)](https://help.github.com/categories/writing-on-github)을 사용(확장자`.md`)
 - 파일명은 영어(소문자) 
 - [contents name]참조명은(#소문자-소문자, 참조할 컨텐츠 이름이 대문자라 할지라도)
-- 그림 code
+- 그림 code test
 ```html
 <p align="center">
  <img src="img/blahblah.png">
@@ -20,8 +20,8 @@
 ---
 
 ## 작성 중
-  - [유사도계산](R/package-tidyr.md)
-  
+  - [유사도계산](R/package-tidyr.md)
+
 ---
 
 ## Categories
@@ -50,7 +50,7 @@
 - [범주명 바꾸기](R/recode-factor-name.md)
 - Transform
   - [(Package-tidyr)wide form and long form](R/package-tidyr.md)
-  
+
 ## Algorithm
 - Supervised Learning
 - Unsupervised Learning
