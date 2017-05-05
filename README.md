@@ -10,10 +10,12 @@
  <img src="img/blahblah.png">
 </p>
 ```
-- Keyboard Icons Markdown
+- Keyboard Icons in Markdown
 ```html
 <kbd>Alt</kbd>+<kbd>F2</kbd>
 ```
+- [라텍스](latex.codecogs.com)
+> can not render LaTex in GFM
 
 ---
 
