@@ -24,7 +24,7 @@
 
 ---
 
-[TOC]
+
 
 ## Categories
 
@@ -93,8 +93,8 @@
 ## ETC
 - [Install Window 10 via USB on Samsung laptop](ETC/install-window10-via-usb-on-samsung.md)
 
-### Other TIL Collections
+<\br>
+**Other TIL Collections**
 Inspired by
 - [@channprj](https://github.com/channprj/TIL)
 - [@milooy](https://github.com/milooy/TIL)
-
