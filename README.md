@@ -93,7 +93,7 @@
 ## ETC
 - [Install Window 10 via USB on Samsung laptop](ETC/install-window10-via-usb-on-samsung.md)
 
-<\br>
+
 **Other TIL Collections**
 Inspired by
 - [@channprj](https://github.com/channprj/TIL)
