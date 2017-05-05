@@ -12,9 +12,16 @@ InsLoadPkg <- function(input){
 }
 ```
 ## 사용법 
-```
+```r
 packages <- c("dplyr", "forcats")
 InsLoadPkg(packages)
 ```
+
+## library vs require
+> 버전 바뀔 때 require쓰니깐 에러생김
+
+
+
 ### ref
+
 https://gist.github.com/stevenworthington/3178163

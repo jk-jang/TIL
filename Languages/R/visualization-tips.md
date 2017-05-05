@@ -7,3 +7,4 @@ put-comma-in-graph
 p
 +scale_y_continuous(labels=comma)
 ```
+
