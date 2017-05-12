@@ -2,7 +2,7 @@
 >Today I Learned
 
 작성 규칙은 GFM[(Github-Flavoured Markdown)](https://help.github.com/categories/writing-on-github)을 사용(확장자`.md`)
-- 파일명은 영어(소문자) 
+- 파일명은 영어(소문자)
 - [contents name]참조명은(#소문자-소문자, 참조할 컨텐츠 이름이 대문자라 할지라도)
 - 그림 code test
 ```html
@@ -51,7 +51,7 @@
 ## Platform
 
 - Docker
-  - [Install Docker for Window](platform/docker/install-docker-for-window.md) 
+  - [Install Docker for Window](platform/docker/install-docker-for-window.md)
   - [Install tensorflow in Docker](platform/docker/install-tensorflow-in-docker.md)
 - Anaconda
   - [Install tensorflow in Anaconda](platform/anaconda/install-tensorflow-in-anaconda.md)
@@ -74,6 +74,9 @@
 - [범주명 바꾸기](Languages/R/recode-factor-name.md)
 - Transform
   - [(Package-tidyr)wide form and long form](Languages/R/package-tidyr.md)
+- Feature
+- Dimension reduction
+  - [Theory](Theory/dimension-reduction.md)
 
 ## Algorithm
 - Supervised Learning
