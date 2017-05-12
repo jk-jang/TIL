@@ -55,7 +55,8 @@
   - [Install tensorflow in Docker](platform/docker/install-tensorflow-in-docker.md)
 - Anaconda
   - [Install tensorflow in Anaconda](platform/anaconda/install-tensorflow-in-anaconda.md)
-
+  - [Install Git and Setting](platform/git/install-git-and-setting.md)
+  
 ## Software Library
 
 - Tensorflow
