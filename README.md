@@ -51,15 +51,15 @@
 ## Platform
 
 - Docker
-  - [Install Docker for Window](platforms/docker/install-docker-for-window.md)
-  - [Install tensorflow in Docker](platforms/docker/install-tensorflow-in-docker.md)
+  - [Install Docker for Window](Platforms/docker/install-docker-for-window.md)
+  - [Install tensorflow in Docker](Platforms/docker/install-tensorflow-in-docker.md)
 - Anaconda
-  - [Install tensorflow in Anaconda](platforms/anaconda/install-tensorflow-in-anaconda.md)
+  - [Install tensorflow in Anaconda](Platforms/anaconda/install-tensorflow-in-anaconda.md)
 
 - Git
-  - [Install Git and Setting](platforms/git/install-git-and-setting.md)
-  - [Use Git in Github](platforms/git/use-git-in-github.md)
-  - [Use Git in Atom](platforms/git/use-git-in-atom.md)
+  - [Install Git and Setting](Platforms/git/install-git-and-setting.md)
+  - [Use Git in Github](Platforms/git/use-git-in-github.md)
+  - [Use Git in Atom](Platforms/git/use-git-in-atom.md)
 
 </br>
 ## Software Library
