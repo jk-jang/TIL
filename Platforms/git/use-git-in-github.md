@@ -13,6 +13,11 @@
 1. 주소 복사
 ![](assets/git-clone1.png)
 
+<center>
+![](assets/git-clone1.png)
+</center>
+
+
 2. 설치할 경로 설정
 <br>`Git Bash`열기
 <center>
