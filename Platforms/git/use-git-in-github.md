@@ -11,8 +11,8 @@
 > "내 컴에 가져오기"
 
 1. 주소 복사
-<center>
-![](./assets/git-clone1.png)
+</center>
+![](assets/git-clone1.png)
 
 2. 설치할 경로 설정
 <br>`Git Bash`열기
