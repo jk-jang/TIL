@@ -13,20 +13,13 @@
 1. 주소 복사
 ![](assets/git-clone1.png)
 
-</center>
-![](assets/git-clone1.png)
-
-
-
 2. 설치할 경로 설정
 <br>`Git Bash`열기
-<center>
 ![](assets/git-clone2.PNG)
 
 > "난 desktop에 설치할거야"
 
 3. `주소` 붙여넣기
-<center>
 ![](assets/git-clone3.PNG)
 ---
 
@@ -42,13 +35,13 @@ Pull : 변화된 것을 desktop에 가져와줘
 `Git Bash`
 
 ### 경로 설정
-<center>![](assets/git-push1.png)
+![](assets/git-push1.png)
 > "master로 뜸"
 
 ### 변화 확인하기
 
 `git status`
-<center>
+
 ![](assets/markdown-img-paste-20170515143158976.png)
 > "빨간 애들은 해당 파일이 변화가 있었다를 뜻함"
 
