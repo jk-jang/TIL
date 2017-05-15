@@ -59,6 +59,7 @@
 - Git
   - [Install Git and Setting](platform/git/install-git-and-setting.md)
   - [Use Github](platform/git/use-github.md)
+  - 으히히 바뀌낭?얘도?
 
 </br>
 ## Software Library
