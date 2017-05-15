@@ -58,8 +58,8 @@
 
 - Git
   - [Install Git and Setting](platform/git/install-git-and-setting.md)
-  - [Use Github](platform/git/use-github.md)
-  - 으히히 바뀌낭?얘도?
+  - [Use Git in Github](platform/git/use-git-in-github.md)
+  - [Use Git in Atom](platform/git/use-git-in-atom.md)
 
 </br>
 ## Software Library

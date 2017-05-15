@@ -88,6 +88,4 @@ step 3. (add -> commit -> **push**)
 
 `git pull`
 
-> "전체적으로 좀 불편한 듯 편한게 없을까?"
-
-cf. [Other way](./use-git-in-atom.md)
+> "전체적으로 좀 불편한 듯 편한게 없을까?" [Other way!](./use-git-in-atom.md)
