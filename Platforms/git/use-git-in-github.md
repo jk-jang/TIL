@@ -48,14 +48,14 @@ Pull : 변화된 것을 desktop에 가져와줘
 ### git에 반영하기 (add -> commit -> push)
 step 1.(**add** -> commit -> push)
 `git add ./` `git stauts`
-<center>![](assets/markdown-img-paste-20170515144001176.png)
+![](assets/markdown-img-paste-20170515144001176.png)
  > "얘들 변화를 반영해줘"
 
  > "초록 애들은 변화가 반영되었음을 뜻함"
 
 step 2.(add -> **commit** -> push)
 `git commit -m "테스트"`
-<center>![](assets/markdown-img-paste-20170515144535955.png)
+![](assets/markdown-img-paste-20170515144535955.png)
 
 > "반영되었고 이렇게 바꼈어."
 
@@ -64,16 +64,16 @@ step 2-0. remote(원격) 설정
 
 ---
 1. `git remote add 별명 주소`
-<center>![](assets/markdown-img-paste-20170515145536751.png)
+![](assets/markdown-img-paste-20170515145536751.png)
 
 2. `git push`
-<center>![](assets/markdown-img-paste-20170515150020501.png)
+![](assets/markdown-img-paste-20170515150020501.png)
 
 > "upstream 정해주면 git push 명령어로만 된다고 한다."
 
 3. identification
-<center>![](assets/markdown-img-paste-20170515150210540.png)
-<center>![](assets/identification.png)
+![](assets/markdown-img-paste-20170515150210540.png)
+![](assets/identification.png)
 ---
 step 3. (add -> commit -> **push**)
 
