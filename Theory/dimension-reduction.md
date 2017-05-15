@@ -8,5 +8,4 @@
 
 ## Step3. remove through chi-squared test
 
-</br>
 cf. 1. [How to find the most significant variables out of 500?](https://discuss.analyticsvidhya.com/t/how-to-find-the-most-significant-variables-out-of-500/1658/5)
