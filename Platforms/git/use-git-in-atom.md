@@ -15,7 +15,7 @@
 ## use 'git-plus'
 
 1. 검색창 키기
-</br>
+
 <kbd>Ctrl</kbd> + <kbd> Shift</kbd> + <kbd> p </kbd>
 
 2. 검색창에 `git acp`
