@@ -32,16 +32,41 @@
 > "코드를 좀 바꿨다"
 
 `Git Bash`
+
+### 경로 설정
 <center>![](assets/git-push1.png)
 > "master로 뜸"
 
-git status
+### 변화 확인하기
 
+`git status`
 <center>
 ![](assets/markdown-img-paste-20170515143158976.png)
+> "빨간 애들은 해당 파일이 변화가 있었다를 뜻함"
 
-git add commit push
-git pull
+### git에 반영하기 (add -> commit -> push)
+step 1.
+`git add ./` `git stauts`
+<center>![](assets/markdown-img-paste-20170515144001176.png)
+ > "얘들 변화를 반영해줘"
+
+ > "초록 애들은 변화가 반영되었음을 뜻함"
+
+step 2.
+`git commit -m "테스트"`
+<center>![](assets/markdown-img-paste-20170515144535955.png)
+
+> "반영되었고 이렇게 바꼈어."
+
+step 2-0. remote(원격) 설정
+> "한 번만 해주면 된다."
+
+'git remote add 별명 주소'
+<center>![](assets/markdown-img-paste-20170515145536751.png)
+
+`git push`
+
+`git pull`
 
 > "좀 불편한 듯 편한게 없을까?"
 
