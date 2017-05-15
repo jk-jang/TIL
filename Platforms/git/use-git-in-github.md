@@ -13,9 +13,9 @@
 1. 주소 복사
 ![](assets/git-clone1.png)
 
-<center>
-![](assets/git-clone1.png)
 </center>
+![](assets/git-clone1.png)
+
 
 
 2. 설치할 경로 설정
