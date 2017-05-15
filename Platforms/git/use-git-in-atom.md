@@ -19,7 +19,7 @@
 <kbd>Ctrl</kbd> + <kbd> Shift</kbd> + <kbd> p </kbd>
 
 2. 검색창에 `git acp`
-> <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>a</kbd> + <kbd>p</kbd>
+> 단축키: <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>a</kbd> + <kbd>p</kbd> 잘 안됨
 3. commit message 입력
 
 4. 저장
