@@ -17,7 +17,7 @@
 
 
 <p align="center">
-<img src="img/package-tidyr.png">
+<img src="assets/package-tidyr.png">
 </p>
 
 ## "알고 싶은 것!"
@@ -29,7 +29,7 @@
 
 Month|Day|사과|오렌지|바나나
 :---:|:---:|:---:|:---:|:---:
-Mar|01|24|34|23 
+Mar|01|24|34|23
 Apr|01|53|73|63
 Apr|02|65|32|11
 
@@ -89,7 +89,7 @@ ex)밑에처럼 바꾸고 싶어~
 ##   Month Day quality value
 ## 1     5   1   Ozone    41
 ```
-### 데이터 
+### 데이터
 ```r
 head(airquality)
 #   Ozone Solar.R Wind Temp Month Day
@@ -122,7 +122,7 @@ ex)밑에처럼 바꾸고 싶어~
 #   name drug heartrate
 # Wilbur    a        67
 ```
-### 데이터 
+### 데이터
 ```r
 messy <- data.frame(
   name = c("Wilbur", "Petunia", "Gregory"),
@@ -181,7 +181,7 @@ key: "wide로 넓힐 변수"
 value: "기존 데이터값(cell)을 대표하는 변수명
 > 기존 데이터값인 판매량 `sales`
 
-### 데이터 
+### 데이터
 ```r
 fruit <- data.frame(
   Month = c('Mar', rep('Apr',2)),
@@ -204,7 +204,7 @@ gatherFruit
 # 4   Mar   1 orange    34
 # 5   Apr   1 orange    73
 ```
-### 풀이 
+### 풀이
 ```r
 gatherFruit%>%
   spread(fruit, sales)
@@ -216,11 +216,7 @@ gatherFruit%>%
 ```
 
 
-ref: 
+ref:
 https://blog.rstudio.org/2014/07/22/introducing-tidyr/
 http://mathpsy.tistory.com/20
 https://github.com/tidyverse/tidyr
-
-
-
-

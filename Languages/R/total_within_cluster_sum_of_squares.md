@@ -32,7 +32,7 @@ total_within_cluster_sum_of_squares <- function(data, number_of_cluster=15, seed
 total_within_cluster_sum_of_squares(train_iris)
 ```
 <p align="center">
-  <img src="img/total_within_cluster_sum_of_squares.png">
+  <img src="assets/total_within_cluster_sum_of_squares.png">
 </p>
 
 > 2~3개가 적당하네
