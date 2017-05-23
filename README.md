@@ -3,7 +3,7 @@
 
 작성 규칙은 GFM[(Github-Flavoured Markdown)](https://help.github.com/categories/writing-on-github)을 사용(확장자`.md`)
 - 파일명은 영어(소문자)
-- [contents name]참조명은(#소문자-소문자, 참조할 컨텐츠 이름이 대문자라 할지라도)
+- [contents name]참조명은(#소문자-소문자, *참조할 컨텐츠 이름이 대문자라 할지라도*)
 - 그림 code test
 ```html
 <p align="center">
@@ -91,7 +91,7 @@
   - Clustering
     - K-means
 - Reinforcement Learning
-- [Deep Learning](Deep_Learning/deep-learning-from-scratch-1.ipynb)
+- [Deep Learning](deep_learning/deep-learning-from-scratch-1.ipynb)
 
 ## Model Evaluation
 - 적절한 군집 개수 찾기 - [R](Languages/R/total_within_cluster_sum_of_squares.md)
