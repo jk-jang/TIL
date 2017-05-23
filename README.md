@@ -68,7 +68,7 @@
 ## Collect and Read
 
 - 크롤러
-  1. 데이터 스토어 FILE DATA [R ver](Languages/R/crawler-datastore.md)
+  - 1.데이터 스토어 FILE DATA [R](Languages/R/crawler-datastore.md)
 - [패키지 설치와 불러오기 한 번에 하는 법](Languages/R/function-install-and-load-packages-at-once.md)
 - [데이터 저장](Languages/R/how-to-save.md)
 - [function을 파일로 저장하고 불러오기](Languages/R/save-and-load-function.md)
