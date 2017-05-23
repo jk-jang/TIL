@@ -68,13 +68,13 @@
 ## Collect and Read
 
 - 크롤러
-  - 1.데이터 스토어 FILE DATA [R](Languages/R/crawler-datastore.md)
+  - 데이터 스토어 FILE DATA [R](Languages/R/crawler-datastore.md)
 - [패키지 설치와 불러오기 한 번에 하는 법](Languages/R/function-install-and-load-packages-at-once.md)
 - [데이터 저장](Languages/R/how-to-save.md)
 - [function을 파일로 저장하고 불러오기](Languages/R/save-and-load-function.md)
 - [Run tensorflow in R](Languages/R/run-tensorflow-in-r.md)
 
-## Exploratory Data Analysis
+## Exploratory Data Analysis / Pre-processing
 - [세제곱근 계산 함수 만들기](Languages/R/function-cube-root.md)
 - [팩토리얼 함수 만들기](Languages/R/function-factorial.md)
 - [When Stop 함수 만들기](Languages/R/function-whenstop.md)
@@ -94,7 +94,7 @@
 - Deep Learning
 
 ## Model Evaluation
-- 적절한 군집 개수 찾기 - [r](Languages/R/total_within_cluster_sum_of_squares.md)
+- 적절한 군집 개수 찾기 - [R](Languages/R/total_within_cluster_sum_of_squares.md)
 
 
 ## Visualization
