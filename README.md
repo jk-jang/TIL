@@ -14,8 +14,17 @@
 ```html
 <kbd>Alt</kbd>+<kbd>F2</kbd>
 ```
-- [라텍스](latex.codecogs.com)
+- [라텍스](http://latex.codecogs.com)
 > can not render LaTex in GFM
+
+- 테이블 형식
+```
+Month|Day
+:---:|:---:
+Mar|01
+Apr|01
+Apr|02
+```
 
 ---
 
@@ -90,8 +99,8 @@
 - Unsupervised Learning
   - Clustering
     - K-means
+- Deep Learning
 - Reinforcement Learning
-- [Deep Learning](deep_learning/deep-learning-from-scratch-1.ipynb)
 
 ## Model Evaluation
 - 적절한 군집 개수 찾기 - [R](Languages/R/total_within_cluster_sum_of_squares.md)
