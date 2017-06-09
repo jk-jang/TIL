@@ -150,7 +150,7 @@ messy %>%
 ---
 
 # spread()
-## "wide form(옆으로 긴 거)을 long form(밑으로 긴 거)으로 바꿈"
+## "long form(밑으로 긴 거)을 wide form(옆으로 긴 거)으로 바꿈"
 > ## 범주들을 변수명들로 바꿈(범주:apple, orange, banana를 변수명으로 바꿈)
 cf. gather()은 변수명들을 범주들로 바꿈(변수명: apple, orange, banana을 한 변수의 범주로 들어감)
 
