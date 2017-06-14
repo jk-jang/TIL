@@ -22,14 +22,8 @@ str(warpbreaks)
 ### 패키지 설치
 [패키지 설치와 불러오기 한 번에 하는 법](function-install-and-load-packages-at-once.md)
 ```r
-InsLoadPkg <- function(input){
-  uninstalledPackage <- input[!(input %in% installed.packages()[, "Package"])]
-  if (length(uninstalledPackage)) 
-    install.packages(uninstalledPackage, dependencies = TRUE)
-  sapply(input, require, character.only = TRUE)
-}
 packages <- c("dplyr", "forcats")
-InsLoadPkg(packages)
+InsLoadPkg(packages) # 위 링크 참고
 ```
 ### 범수명 바꾸기
 ```r

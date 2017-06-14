@@ -1,22 +1,26 @@
 
 ## 식별자(Identifiers)
-> 식별자(identifiers)안에는 밑줄 ( _ )이나 하이픈 ( - )을 사용하지마.
+> ### 식별자(identifiers)안에는 밑줄 ( _ )이나 하이픈 ( - )을 사용하지마.
+
+> ### 파이썬에서 함수 x.y 이렇게 써서 . 보다는 밑줄이 나은 듯 보인다.(17.06.13)
+
+> 좀 더 지켜보자
 
 변수(variable) 이름으로 선호되는 형식은 모두 소문자이고 점으로 구분된 단어 (variable.name) 이지만, variableName 도 허용합니다
-함수 이름 맨 앞글자는 대문자로 하고 점이 없이 (FunctionName) 과 같이 정합니다; 
+함수 이름 맨 앞글자는 대문자로 하고 점이 없이 (FunctionName) 과 같이 정합니다;
 
 ```r
-variable.name을 선호하지만, variableName 도 받아드립니다. 
+variable.name을 선호하지만, variableName 도 받아드립니다.
 GOOD: avg.clicks 
-OK: avgClicks 
+OK: avgClicks
 BAD: avg_Clicks
 ```
 
-**함수 이름** 
+**함수 이름**
 ```r
-GOOD: CalculateAvgClicks 
-BAD: calculate_avg_clicks , calculateAvgClicks 
-함수의 이름은 동사로 만듭니다. 
+GOOD: CalculateAvgClicks
+BAD: calculate_avg_clicks , calculateAvgClicks
+함수의 이름은 동사로 만듭니다.
 ```
 
 ---

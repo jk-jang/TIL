@@ -1,4 +1,4 @@
-# Dimension reduction
+# Dimension reduction(pending)
 
 ## Step1. use [Information Value]()
 --> random forest 돌리면 된다고 함(로짓이나 회귀에는 적절하지 않음)
