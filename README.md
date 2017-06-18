@@ -52,8 +52,12 @@ Apr|02
 
 ## Languages
 - 코드 작성법 - [R](Languages/R/R-code-style-guide.md)
-- 변수 type - [R](Languages/R/.md), [Python](Languages/Python/.md)
-- [R vs Python](.md)
+- [R vs Python](Languages/python-vs-r.md)
+- Tip [Python](Languages/Python/tip.ipynb)
+- Variable [Python](Languages/Python/basic-01-variable.ipynb)
+- Data Type
+  - String [Python](Languages/Python/basic-02-datatype-string.ipynb)
+- Data Structure
 
 ## Mathematics & Statistics
 
