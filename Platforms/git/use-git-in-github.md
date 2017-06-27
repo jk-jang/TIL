@@ -73,7 +73,7 @@ step 2-0. remote(원격) 설정
 
 3. identification
 ![](assets/markdown-img-paste-20170515150210540.png)
-![](assets/identification.png)
+![](assets/identification.PNG)
 ---
 step 3. (add -> commit -> **push**)
 
