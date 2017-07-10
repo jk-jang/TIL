@@ -116,7 +116,7 @@ Apr|02
 ## ETC
 
 - [Install Window 10 via USB on Samsung laptop](ETC/install-window10-via-usb-on-samsung.md)
-
+- [PATH](ETC/path.md)
 
 
 ##### Other TIL Collections
