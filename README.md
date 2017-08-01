@@ -88,6 +88,7 @@ Apr|02
 - [Run tensorflow in R](Languages/R/run-tensorflow-in-r.md)
 
 ## Exploratory Data Analysis / Pre-processing
+- [finding mutiple elements in a vector](Languages/R/find-multiple-elements.md)
 - [세제곱근 계산 함수 만들기](Languages/R/function-cube-root.md)
 - [팩토리얼 함수 만들기](Languages/R/function-factorial.md)
 - [When Stop 함수 만들기](Languages/R/function-whenstop.md)
