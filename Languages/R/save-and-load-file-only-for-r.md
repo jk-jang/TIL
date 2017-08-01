@@ -8,7 +8,7 @@
 ```r
 save(iris,file='R만을 위한 데이터.RData')
 ```
-파일이 생성됨
+파일이 생성됨</br>
 ![](assets/markdown-img-paste-2017080113444709.png)
 
 ```r

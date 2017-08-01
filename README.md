@@ -86,7 +86,7 @@ Apr|02
 - [데이터 저장](Languages/R/how-to-save.md)
 - [function을 파일로 저장하고 불러오기](Languages/R/save-and-load-function.md)
 - [Run tensorflow in R](Languages/R/run-tensorflow-in-r.md)
-[save and load file only for R](Languages/R/save-and-load-file-only-for-r.md)
+- [save and load file only for R](Languages/R/save-and-load-file-only-for-r.md)
 ## Exploratory Data Analysis / Pre-processing
 - [finding mutiple elements in a vector](Languages/R/find-multiple-elements.md)
 - [세제곱근 계산 함수 만들기](Languages/R/function-cube-root.md)
