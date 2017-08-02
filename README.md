@@ -26,19 +26,10 @@ Apr|01
 Apr|02
 ```
 
----
-
-## 작성 중
-  - [유사도계산](R/package-tidyr.md)
-
----
-
-
-
 ## Categories
-
+- [Idea](#idea)
 - [Languages](#languages)
-- [Mathematics & Statistics](#Mathematics&Statistics)
+- [Mathematics & Statistics](#mathematics&statistics)
 - [Platform](#platform)
 - [Software library](#software-library)
 - [Collect and Read](#collect-and-read)
@@ -49,6 +40,9 @@ Apr|02
 - [ETC](#etc)
 
 ---
+
+## Idea
+- [Trade(KOTRA)](https://docs.google.com/document/d/1D6C8O8y15iZ3V6sgRImB8eWNcc-ExLQjCngb-9G-_u4)
 
 ## Languages
 - 코드 작성법 - [R](Languages/R/R-code-style-guide.md)
@@ -95,6 +89,7 @@ Apr|02
 - [범주명 바꾸기](Languages/R/recode-factor-name.md)
 - Transform
   - [(Package-tidyr)wide form and long form](Languages/R/package-tidyr.md)
+  - [wide form and long form](Languages/R/wide-form-and-long-form.md)
 - Feature
 - Dimension reduction
   - [Theory](Theory/dimension-reduction.md)
