@@ -1,15 +1,11 @@
 TOC
 
-# 방법
-1. [nbextension](#nbextension)
-2.
+1. [nbextension-hide](#1.nbextension-hide)
+2. []
+
+## 1. nbextension-hide
+
+## 2. 
 
 
-## nbextension
-http://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html
-
-- 1. Install the python package
-- 2. Install javascript and css files
-- 3. Enabling/Disabling extensions
-
-## 
+![](img/2017-08-31-11-05-11.png)
