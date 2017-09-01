@@ -2,8 +2,7 @@ TOC
 
 에러명|해결방법|상세보기
 :---:|:---:|:---:
-build/compile|소스코드 파일을 기계어(binary)로 변환|[link][1]
-[1]: #build/compile
+build/compile|소스코드 파일을 기계어(binary)로 변환|[link](#build/compile)
 
 
 <a id='build/compile'></a>
