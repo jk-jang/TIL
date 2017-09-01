@@ -67,7 +67,8 @@ Apr|02
   - [Install Git and Setting](Platforms/git/install-git-and-setting.md)
   - [Use Git in Github](Platforms/git/use-git-in-github.md)
   - [Use Git in Atom](Platforms/git/use-git-in-atom.md)
-
+  - [Use Git in Visual Studio Code](Platforms/git/use-git-in-vscode.md)
+  
 ## Software Library
 
 - Tensorflow
@@ -111,9 +112,10 @@ Apr|02
 
 ## ETC
 
+- [IT dictionary](ETC/IT-dictionary.md)
 - [Install Window 10 via USB on Samsung laptop](ETC/install-window10-via-usb-on-samsung.md)
 - [PATH](ETC/path.md)
-
+- [Greek](ETC/greek.md)
 
 ##### Other TIL Collections
 
