@@ -46,4 +46,5 @@ write.csv(dataset,"C:/Users/warm/Desktop/data.csv")
 ```
 
 ## 총평
-> 1. `read_html("url주소") -> html_nodes("table있는 클래스명")%>%html_table()` 일케 하면 될 거... 한글 문제로 길어졌네 `readLines`로 해결함 2. 정규식 공부해야겠다.
+> 1. `read_html("url주소") -> html_nodes("table있는 클래스명")%>%html_table()` 일케 하면 될 거... 한글 문제로 길어졌네 `readLines`로 해결함 
+> 2. 정규식 공부해야겠다.
