@@ -2,7 +2,8 @@ TOC
 
 에러명|해결방법|상세보기
 :---:|:---:|:---:
-build/compile|소스코드 파일을 기계어(binary)로 변환|[link](#build/compile)
+build/compile|python window binary|[link](#build/compile)
+Encode(latin-1)|?charset=utf8|[link](#UnicodeEncodeError(latin-1))
 
 
 <a id='build/compile'></a>
@@ -32,4 +33,19 @@ build/compile|소스코드 파일을 기계어(binary)로 변환|[link](#build/c
 
 4. 다운로드 경로에서 `pip install mysqlclient-1.3.10-cp36-cp36m-win_amd64.whl` 입력
 
-## build
+<a id='UnicodeEncodeError(latin-1)'></a>
+### UnicodeEncodeError(latin-1)
+- 에러
+![](img/2017-09-01-13-33-12.png)
+
+- 원인
+
+한글... 
+
+- 해결방법
+
+디비명 뒤에 ?charset=utf8붙여줌
+```python
+from sqlalchemy import create_engine
+engine = create_engine("mysql+mysqldb://user:password@host/db_name?charset=utf8")
+```

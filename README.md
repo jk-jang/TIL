@@ -4,12 +4,20 @@
 작성 규칙은 GFM[(Github-Flavoured Markdown)](https://help.github.com/categories/writing-on-github)을 사용(확장자`.md`)
 - 파일명은 영어(소문자)
 - [contents name]참조명은(#소문자-소문자, *참조할 컨텐츠 이름이 대문자라 할지라도*)
-- 그림 code test
+- 그림 code example
 ```html
 <p align="center">
  <img src="img/blahblah.png">
 </p>
 ```
+- 특수문자(/,etc) link code
+```html
+[link](#build/compile)
+
+링크할 부분 위에 아래 코드 삽입
+<a id='build/compile'></a>
+```
+
 - Keyboard Icons in Markdown
 ```html
 <kbd>Alt</kbd>+<kbd>F2</kbd>
@@ -52,6 +60,7 @@ Apr|02
 - Data Type
   - String [Python](Languages/Python/basic-02-datatype-string.ipynb)
 - Data Structure
+- Errors [Python](Languages/Python/errors.md)
 
 ## Mathematics & Statistics
 
@@ -77,6 +86,7 @@ Apr|02
 
 - 크롤러
   - 데이터 스토어 FILE DATA - [R](Languages/R/crawler-datastore.md)
+  - [무역협회 실시간환율정보](Languages/Python/crawler-kita.md)
 - [패키지 설치와 불러오기 한 번에 하는 법](Languages/R/function-install-and-load-packages-at-once.md)
 - [데이터 저장](Languages/R/how-to-save.md)
 - [function을 파일로 저장하고 불러오기](Languages/R/save-and-load-function.md)

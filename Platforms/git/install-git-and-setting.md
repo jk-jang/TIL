@@ -1,3 +1,8 @@
+# private vs public
+
+- public: github(유료버전도 있긴함) 
+- private: gitlab, bitbucket, AWS codecommit private git
+
 # Install git
 https://git-scm.com/downloads
 
