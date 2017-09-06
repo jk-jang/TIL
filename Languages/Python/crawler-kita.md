@@ -34,7 +34,14 @@ ENGINE=InnoDB
 ### 2.2 DB연결 
 ```python
 from sqlalchemy import create_engine
-engine = create_engine("mysql+mysqldb://UserID:PassWord@HOST/name of db?charset=utf8")
+params = {
+    'user': 'xx@xx-db',
+    'pass': 'xxxx',
+    'host': 'xxxx-db.mysql.database.azure.com',
+    'port': '3306',
+    'schema': 'xxx_db_name?charset=utf8',
+}
+engine = create_engine('mysql+mysqldb://{user}:{pass}@{host}:{port}/{schema}'.format(**params), echo=False)
 ```
 ### 2.1 table 생성
 ```python
@@ -51,9 +58,9 @@ delta = enddate - startdate
 colname = ['temp_country_name','base_exc','pre_exc','change_rate','buy','sell','send','receive','country_info']
 
 for i in range(delta.days + 1):
-    crwaling_date = startdate + timedelta(days=i)
-    print('{} 크롤링 시작'.format(crwaling_date))
-    url = "http://www.kita.net/exchangeRate_info/exchangeRate_info_list_kb.jsp?s_date1={}".format(crwaling_date)
+    crawling_date = startdate + timedelta(days=i)
+    print('{} 크롤링 시작'.format(crawling_date))
+    url = "http://www.kita.net/exchangeRate_info/exchangeRate_info_list_kb.jsp?s_date1={}".format(crawling_date)
     html = requests.get(url)
     print(html.status_code)
     html = html.text
@@ -89,10 +96,9 @@ for i in range(delta.days + 1):
         df.drop('country_info', axis = 1, inplace = True)
         df.drop('temp_country_name', axis = 1, inplace = True)
 
-        execution_day = datetime.now().strftime('%Y-%m-%d')
         lst_col_idx=df.columns.size     
 
-        df.insert(lst_col_idx,"base_dt",crwaling_date)
+        df.insert(lst_col_idx,"base_dt",crawling_date)
         df['base_exc']=df['base_exc'].str.replace(',','')
         df['buy']=df['buy'].str.replace(',','')
         df['sell']=df['sell'].str.replace(',','')
@@ -101,7 +107,7 @@ for i in range(delta.days + 1):
 
         df.to_sql('tb_exchange_temp',con=engine, if_exists='append', index=False)
         
-        print('{} 크롤링 완료\n'.format(crwaling_date))
+        print('{} 크롤링 완료\n'.format(crawling_date))
 ```
 ## 총평
 
