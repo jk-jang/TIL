@@ -1,0 +1,41 @@
+# [AWS CodeCommit](https://aws.amazon.com/ko/codecommit/)
+
+- 프라이빗 Git 리포지토리를 호스팅하는 안전하고 확장성이 뛰어난 관리형 소스 제어 서비스
+
+## 계정 설정하기
+- AWS IAM을 통해서 계정관리
+- IAM?
+  - [참고사이트1](http://pyrasis.com/book/TheArtOfAmazonWebServices/Chapter16/)
+  - [공식사이트](http://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/introduction.html)
+- 계정 생성
+  - [공식사이트](https://aws.amazon.com/ko/blogs/korea/category/aws-codecommit/)
+
+- aws로그인 -> 오른쪽 상단 이름옆에 지역 `Seoul`로 바꾸기
+- `services` -> `IAM` -> `Users` -> `Add user` -> `Attach existing policies directly` -> check `AWSCOdeCommitFullAccess`
+- Access key ID & Secret access key 메모장에 저장
+- `HTTPS Git credentials for AWS CodeCommit` <kbd>Generate</kbd> User name& password 메모장에 저장
+
+
+## [Github migration to AWS CodeCommit](http://docs.aws.amazon.com/codecommit/latest/userguide/how-to-migrate-repository-existing.html)
+
+`services` -> `CodeCommit` -> `리포지토리 생성`
+> 기존 Github repo랑 이름 똑같이 해야함
+
+-> CodeCommit Dashboard 해당repo url 메모장 복사(한국은 ap-northeast-2)
+
+
+## AWS Cli 설치
+- [다운로드](http://docs.aws.amazon.com/cli/latest/userguide/awscli-install-windows.html)
+
+## Git Bash 설치
+- [다운로드](https://git-for-windows.github.io/)
+- `git bash`실행 -> `aws configure` -> 메모장에 저장한 거(keys) 입력
+- region name에 `ap-northeast-2`입력, output format에 `json`입력
+- 복사하려는 git있는 폴더로 이동 `cd xx`
+- git config --global credential.helper "!aws codecommit credential-helper $@
+- git config --global credential.UseHttpPath true
+- git push https://git-codecommit.ap-northeast-2.amazonaws.com/v1/repos/TIL
+- HTTPS Git credentials for AWS CodeCommit에서 저장한 값 입력
+
+# 총평
+- code 검색이 안되네...
